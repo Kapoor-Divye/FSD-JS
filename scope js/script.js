@@ -227,3 +227,20 @@
 // } else{
 //     console.log("=== not done")
 // }
+
+// var x=6
+// var y=3
+// console.log(x==10 && y>1) 
+// console.log(x==6 || y==6) 
+// console.log(x=10 && y>1) 
+
+// var myCollection=[
+//     "meera ma'am",
+//     true,
+//     {
+//         name:"Sanjeev",
+//         age:30
+
+//     }
+// ]
+// console.log(myCollection)

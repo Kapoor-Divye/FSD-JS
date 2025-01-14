@@ -240,7 +240,75 @@
 //     {
 //         name:"Sanjeev",
 //         age:30
-
-//     }
+//     },
+//     function(name){
+//         console.log(name)
+//     },
+//     ["Abhishek","Bacchan","Amitabh","Bacchan"]
 // ]
 // console.log(myCollection)
+
+// function information(Fname,Lname,Lang){
+//     if (arguments.length===3){
+//         console.log(Fname)
+//         console.log(Lname)
+//         console.log(Lang)
+//     }
+// }
+
+// information()
+// information("Divye","Kapoor","Hindi")
+
+function over(){
+    document.getElementById("myText").style.color="red"
+}
+
+function mout(){
+    document.getElementById("myText").style.color="magenta"
+}
+
+// var retVal=confirm("Do you want to continue?")
+// if (retVal===true){
+//     alert("User wants to continue.")
+// } else{
+//     alert("User doesn't want to continue.")
+// }
+
+// var retVal=prompt("Enter your name: ","Your name here")
+// document.write("Hello "+retVal)
+
+// var question="What is 10+10?"
+// var answer=20
+// var correct="Correct Answer"
+// var wrong="Wrong Answer"
+// var response=prompt(question,"0")
+// for(count=0;count<3,count++){
+//     if(response!=answer){
+//         confirm("Wrong. Press OK for another chance")
+//         response=prompt(question,"0")
+//         if(count===1){
+//             alert("Better luck next time")
+//         } else{
+//             alert("Great you are right")
+//             count=3
+//         }
+//     }
+// }
+
+// function Redirect(){
+//     window.location="https://www.google.co.in"
+// }
+// document.write("You will be redirected to google in 10 seconds")
+// setTimeout("Redirect",10000)
+
+// function validateForm(){
+//     var x=document.forms.myform.phno.value
+//     if(x.length!=10){
+//         alert("Enter 10 digit mobile number")
+//         return false
+//     }
+//     if(!(x.match(/^[0-9]{10}$/))){
+//         alert("Only digits please")
+//         return false
+//     }
+// }
